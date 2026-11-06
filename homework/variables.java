@@ -45,11 +45,31 @@ public static void exercise4() {
         System.out.println(h);
     }
 
-    /
+    /**
+     
+Exercise 5: Prints minimum and maximum
+values of integer primitive types.*/
+public static void exercise5() {
+    System.out.println("Byte MIN: " + Byte.MIN_VALUE);
+    System.out.println("Byte MAX: " + Byte.MAX_VALUE);
+
+        System.out.println("Short MIN: " + Short.MIN_VALUE);
+        System.out.println("Short MAX: " + Short.MAX_VALUE);
+
+        System.out.println("Int MIN: " + Integer.MIN_VALUE);
+        System.out.println("Int MAX: " + Integer.MAX_VALUE);
+
+        System.out.println("Long MIN: " + Long.MIN_VALUE);
+        System.out.println("Long MAX: " + Long.MAX_VALUE);
+    }
+
+    /**
 Runs all exercises.*
-@param args command-line arguments*/
+@param args command-line arguments**/
 public static void main(String[] args) {
- exercise1();
- exercise2();
- exercise3();}
-}
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
+        exercise5();
+    }
