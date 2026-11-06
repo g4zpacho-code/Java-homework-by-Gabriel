@@ -1,8 +1,8 @@
 public class Variables {
 
     /
-Homework 4 - Exercise 1.
-Creates two byte variables and prints their values.*/
+Exercise 1: Creates and prints
+two byte variables.*/
 public static void exercise1() {
  byte a = 10;
  byte b = 20;
@@ -12,8 +12,21 @@ public static void exercise1() {
     }
 
     /
-Main method to run the exercises.*
+Exercise 2: Creates and prints
+two short variables.*/
+public static void exercise2() {
+ short c = 1000;
+ short d = 2000;
+
+        System.out.println(c);
+        System.out.println(d);
+    }
+
+    /**
+     
+Runs all exercises.*
 @param args command-line arguments*/
 public static void main(String[] args) {
- exercise1();}
+    exercise1();
+    exercise2();}
 }
